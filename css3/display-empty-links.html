@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    a[href^="http"]:empty::before{
+        content: attr(href);
+    }
+  </style>
+</head>
+<body>
+<a href="https://30secondsofcode.org"></a>
+</body>
+</html>
