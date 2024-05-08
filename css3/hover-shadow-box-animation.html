@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+      .hover-shadow-box-animation {
+          display: inline-block;
+          margin: 10px;
+          vertical-align: middle;
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 0 0 1px transparent;
+          transition-duration: 0.3s;
+          transition-property: box-shadow, transform;
+
+      }
+
+      .hover-shadow-box-animation:hover,
+      .hover-shadow-box-animation:focus,
+      .hover-shadow-box-animation:active {
+          box-shadow: 1px 10px 10px -10px rgba(0, 0, 24, 0.5);
+          transform: scale(1.2);
+      }
+  </style>
+</head>
+<body>
+<p class="hover-shadow-box-animation">Box it!</p>
+</body>
+</html>
