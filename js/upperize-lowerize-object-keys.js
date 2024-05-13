@@ -8,3 +8,7 @@ upperize({ Name: 'John', Age: 22 }); // { NAME: 'John', AGE: 22 }
 
 const a = {x:1}
 const b = structuredClone(a)    //原生深度克隆
+
+
+// 收尾n个元素
+// 数组的最后一个元素
